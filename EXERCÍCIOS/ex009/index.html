@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listas</title>
+</head>
+<body>
+    <h1>Trabalhando com Listas</h1>
+    <hr>
+    <h2>Listas Ordenadas: </h2>
+    <p>A tag <abbr title="Ordered List">OL</abbr> + a tag <abbr title="List Item">LI</abbr> servem para fazer uma lista em ordem, como esta: </p>
+    <ol type="1"> <!--1, A, a, I, i-->
+        <li>Acordar;</li>
+        <li>Tomar banho;</li>
+        <li>Café da manhã;</li>
+        <li>Faculdade;</li>
+        <li>Almoçar;</li>
+        <li>Relaxar;</li>
+        <li>Lanchar;</li>
+        <li>Estudar;</li>
+        <li>Jantar;</li>
+        <li>Academia;</li>
+        <li>Dormir.</li>
+    </ol>
+    <p>Para personalizar, se coloca o parâmetro type no ol.</p>
+    
+    <h2>Listas Não-Ordenadas: </h2>
+    <p>Para uma lista não-ordenada, utiliza-se a tag <abbr title="Unordered List">UL</abbr>. </p>
+    <ul type="square"> <!--disc, circle, square -->
+        <li>Pão</li>
+        <li>Leite</li>
+        <li>Ovos</li>
+        <li>Queijo</li>
+        <li>Alface</li>
+    </ul>
+
+    <h2>Juntando listas 1.0:</h2>
+    <h3>Minhas Séries Favoritas:</h3>
+    <ol>
+        <li>Antigas: </li>
+        <ol type="a">
+            <li>Teen Wolf</li>
+            <li>The Vampire Diaries</li>
+            <li>Pretty Little Liars</li>
+            <li>The Protector</li>
+        </ol>
+        <li>Novas:</li>
+        <ol type="a" start="5">
+            <li>Lock and Key</li>
+            <li>Wednesday</li>
+            <li>Stranger Things</li>
+        </ol>
+    </ol>
+    <h3>Meus Jogos Favoritos: </h3>
+    <ol>
+        <li>Antigos: </li>
+        <ul type="disc">
+            <li>Minecraft</li>
+            <li>Solitarie</li>
+            <li>GTA</li>
+        </ul>
+        <li>Novos: </li>
+        <ul type="disc">
+            <li>The Sims 4</li>
+            <ul>
+                <li>Estações</li>
+                <li>Ao Trabalho</li>
+            </ul>
+            <li>Grounded</li>
+            <li>Paralives</li>
+        </ul>
+    </ol>
+
+    <h2>Lista de Definição:</h2>
+    <p>Para a lista de definições usa-se a tag <abbr title="Description List">DL</abbr>, utiliza-se a tag <abbr title="Defines Terms">DT</abbr> para o <strong>termo</strong> e a tag <abbr title="Defines Description">DD</abbr> para a <strong>descrição</strong>.</p>
+    <dl>
+        <dt>HTML: </dt>
+        <dd>Linguagem de marcação para a criação do conteúdo de um site.</dd>
+        <dt>CSS: </dt>
+        <dd>Linguagem de marcação para a criação do design de um site.</dd>
+        <dt>JavaScript: </dt>
+        <dd>Linguagem de programação para a criação da interatividade de um site.</dd>
+    </dl>
+</body>
+</html>

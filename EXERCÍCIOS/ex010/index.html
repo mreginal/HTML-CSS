@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links e Âncoras</title>
+</head>
+<body>
+    <h1>LINKS: </h1>
+    <hr>
+    <h2>Usando Links Externos: </h2>
+    <p>Você pode acessar este <a href="https://github.com/gustavoguanabara/html-css/tree/master/aulas-pdf" target="_blank" rel="external">repositório público</a> do Curso em Vídeo no GitHub.</p>
+    <p>E pode também acessar o canal deles no <a href="https://www.youtube.com/@CursoemVideo" target="_blank" rel="external">YouTube</a>.</p>
+    <!--O parâmetro target="_blank" e o rel="external" serve para abrir uma nova aba quando acessar o link. -->
+
+    <h2>Usando Links Internos: </h2>
+    <p>Esta é a primeira página do site, se quiser, pode acessar a minha <a href="pg02.html" target="_self" rel="next">segunda página.</a></p>
+    <p>Como também pode acessar nossa <a href="noticias/pg03.html" target="_self" rel="next"> página de notícias</a>. </p>
+
+    <h2>Fazendo Downloads: </h2>
+    <ul>
+        <li>Foto natalina em <a href="foto/natal.pdf" download="natal.pdf" type="application/pdf">PDF</a>. </li>
+        <!--Dependendo do navegador, este acima já funciona.-->
+        <li>Foto compactada em <a href="foto/natal.zip" download="natal.zip" type="application/zip">ZIP</a>. </li>
+    </ul>
+</body>
+</html>
